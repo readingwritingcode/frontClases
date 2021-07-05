@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cont-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+/* desging pattern: mobile firts
+
+0-480
+
+481-768
+
+769-1279
+
+1280+
+
+*/
+
+/*mobile*/
+.card {
+    width: 30vw;
+    min-width: 432px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.card button {
+    margin-top: 16px;
+    padding: 8px 24px;
+}
+
+.card p {
+    line-height: 24px;
+}
+
+.footer-img {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 432px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px 30px 0px 0px;
+   
+}
+
+.hero {
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 175px;
+}
+
+.card h1 {
+    font-size: 3.5rem;
+    margin-top: 60px;
+
+}
+
+/*tablet*/
+@media screen and (min-width:480px) {
+
+        
+}
